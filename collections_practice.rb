@@ -29,7 +29,7 @@ array.inject { |sum, n| sum + n }
 end
 def add_s(array)
 array.collect do |a|
-a.push("s")
+a.collect do |l| l.push("s")
 end
 
 end
