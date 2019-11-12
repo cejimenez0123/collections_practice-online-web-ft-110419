@@ -22,5 +22,5 @@ array.each do |x|
 end
 end
 def find_a(array)
-  array.start_with("a")
+  array.select {|a| a[0] = "a"}
 end
