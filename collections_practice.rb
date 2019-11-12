@@ -22,5 +22,5 @@ array.each do |x|
 end
 end
 def find_a(array)
-  array.select {|a| a[0] = "a"}
+  array.select {|a| a[0] == "a"}
 end
