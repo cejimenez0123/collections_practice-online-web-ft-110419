@@ -16,6 +16,7 @@ def reverse_array(array)
   array.reverse
 end
 def kesha_maker(array)
-  nd_array =array.split("")
-  nd_array.each_with_index do |x| nd_array[2] = "$" end
+array.each do |x|
+  x.each(2) = $
+end
 end
