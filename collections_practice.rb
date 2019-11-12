@@ -28,6 +28,6 @@ def sum_array(array)
 array.inject { |sum, n| sum + n }
 end
 def add_s(array)
-array.collect { |a| a.push("s")}
+array.collect { |a| a.each { |l| a.push("s")}
 
 end
