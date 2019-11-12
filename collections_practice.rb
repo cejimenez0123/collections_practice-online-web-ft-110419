@@ -31,6 +31,5 @@ def add_s(array)
 array.collect do |a|
 a.push("s")
 end
-end
 
 end
